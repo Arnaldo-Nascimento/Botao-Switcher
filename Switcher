@@ -204,5 +204,5 @@ add_action('wp_ajax_update_status', function() {
     wp_die();
 });
 
-// É AQUI QUE VOCÊ ALTERA PARA O NOME DO CPT E DO INPUT DO SWITCHER
+// É AQUI QUE VOCÊ ALTERA PARA O SLUG DO CPT E DO META-FIELD DO SWITCHER
 add_status_column_to_cpt('vagas', '_status');
