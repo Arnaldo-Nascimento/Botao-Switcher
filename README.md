@@ -1,4 +1,4 @@
-Como utilizar?
+<strong>Como utilizar?</strong>
 
 
 Use o gerenciador de arquivos (CPANEL) para editar o arquivo functions.php localizado em: theme/nome do thema/functions.php;
