@@ -1,5 +1,5 @@
 //  Cria um switcher no CPT GENÉRICO COM META FIELD GENÉRICO
-// 	Alterar: CAMINHO-DO-ARQUIVO, SLUG-CPT, SLUG-SWITCHER
+// 	Alterar: SLUG-CPT, SLUG-SWITCHER
 
 function add_status_column_to_cpt($cpt, $meta_field) {
     add_filter('manage_' . $cpt . '_posts_columns', function($columns) use ($meta_field) {
@@ -204,5 +204,5 @@ add_action('wp_ajax_update_status', function() {
     wp_die();
 });
 
-// É AQUI QUE VOCÊ ALTERA PARA O SLUG DO CPT E DO META-FIELD DO SWITCHER
+// AQUI VOCÊ DEVE ALTERAR PARA O SLUG DO CPT E DO META-FIELD DO SWITCHER
 add_status_column_to_cpt('vagas', '_status');
